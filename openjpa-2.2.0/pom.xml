@@ -295,7 +295,7 @@
                        <configuration>
                            <argLine>${surefire.jvm.args}</argLine>
                            <includes>
-                               <include />
+                               <include/>
                            </includes>
                        </configuration>
                    </plugin>
@@ -327,8 +327,8 @@
             <properties>
                 <connection.driver.name>org.apache.derby.jdbc.EmbeddedDriver</connection.driver.name>
                 <connection.url>jdbc:derby:target/database/openjpa-derby-database;create=true</connection.url>
-                <connection.username />
-                <connection.password />
+                <connection.username/>
+                <connection.password/>
                 <!-- Tests are much faster without shutting derby down at the end of each test. -->
                 <jdbc.DBDictionary>ShutdownOnClose=false</jdbc.DBDictionary>
             </properties>
@@ -357,8 +357,8 @@
             <properties>
                 <connection.driver.name>org.apache.derby.jdbc.EmbeddedDriver</connection.driver.name>
                 <connection.url>jdbc:derby:memory:openjpa-derby-inmem-database;create=true</connection.url>
-                <connection.username />
-                <connection.password />
+                <connection.username/>
+                <connection.password/>
                 <!-- Tests are much faster without shutting derby down at the end of each test. -->
                 <jdbc.DBDictionary>ShutdownOnClose=false</jdbc.DBDictionary>
             </properties>
@@ -403,7 +403,7 @@
                 <connection.url>${openjpa.derbynet.url}</connection.url>
                 <connection.username>${openjpa.derbynet.username}</connection.username>
                 <connection.password>${openjpa.derbynet.password}</connection.password>
-                <jdbc.DBDictionary />
+                <jdbc.DBDictionary/>
             </properties>
         </profile>
     </profiles>
@@ -515,7 +515,7 @@
             <dependency>
                 <groupId>org.apache.ant</groupId>
                 <artifactId>ant</artifactId>
-                <version>1.7.1</version>
+                <version>1.10.15</version>
             </dependency>
             <dependency>
                 <groupId>org.jmock</groupId>
@@ -874,7 +874,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -889,7 +889,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -904,7 +904,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -919,7 +919,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -934,7 +934,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute />
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
 
@@ -949,7 +949,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -964,7 +964,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -979,7 +979,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
 
@@ -994,7 +994,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
